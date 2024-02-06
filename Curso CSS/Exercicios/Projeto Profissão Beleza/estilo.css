@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    background-color: aqua;
+}
+h1 {
+    text-align: center;
+    
+
+}
+div {
+    display: inline block;
+     background-color: rgba(0, 255255, 0.384);
+    text-align: center;
+    border: 2px solid black;
+    height: 50px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+div:hover{
+    background-color: brown;
+}
+.h1padrao{
+    color:chocolate;
+}

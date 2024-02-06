@@ -1,0 +1,38 @@
+body{
+    /*
+    Medidas absolutas
+    cm, mm, in, px, pt, pc
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+
+    16px = 1em
+
+    px e em melhores medidas
+    */
+    font-size: 1em;
+    font-family:'work Sans', Arial, Helvetica, sans-serif;
+    font-weight:100 ;/* PESO */
+    /* width = LARGURA*/
+    /* height = ALTURA*/
+    font-style: italic;
+    text-align: justify;
+    text-indent: 20px;
+        /* text-decoration: underline; /* Sublinhado */
+}
+h1,h2{
+    /* Shorthand = Abreviação de varias linhas de codigo em uma 
+
+    font-style: italic;
+    font-weight:100 ;
+    font-size: 1em;
+    font-family:'work Sans', Arial, Helvetica, sans-serif;
+    
+    Ordem -> Style > Weight > Size > Family
+    
+    */
+
+    font: italic bolder 3em Arial;
+    text-align: center;
+    
+} 

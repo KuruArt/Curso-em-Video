@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+body {
+    background-image: linear-gradient( to right, #F2C48D, #401801);
+}
+main { 
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 35px #3e4948af;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    
+}
+h1{
+    font-family:'Allura', cursive, arial;
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 1px 1px 5px #52615f91;
+    color:#734014
+}
+h2{
+    color: #127369;
+}
+
+p { text-align: justify;}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*
+ID apenas um por HTML
+Class Varios elementos
+*/
+
+body{
+    background-color: rgba(163, 199, 163, 0.726);
+}
+h1{
+    color: #225C29;
+}
+h1#principal{
+    text-align: center;
+}
+h2{
+    color: #117F1E;
+}
+.basico{
+    color: #117F1E;
+}
+.avancado{
+    color: #7f1811;
+}
+.destaque{
+    background-color: #1BD130;
+}
+.destaque2{
+    background-color: rgba(121, 61, 61, 0.527);
+}
