@@ -141,12 +141,6 @@ img {
     width: 100%;
     display: block ;
 }
-iframe {
-    margin: auto;
-    width: 100%;
-    display: block;
-    padding: 20px 0px;
-}
 .pequena {
     max-width: 350px;
     display: block;
@@ -160,4 +154,18 @@ ul {
 }
 a.externo::after {
     content: '\00A0\1F517';
+}
+iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+div.video {
+    background-color: var(--cor4);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
 }
