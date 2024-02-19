@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(70, 118, 180);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Iniciando estudos em DOM</h1>
+        <p>aqui vai o resultado</p>
+        <p>Aprendendo a usar o <strong>Dom</strong> em JavaScript</p>
+        <div class="botao"> Clique aqui!</div>
+    </main>
+    <script>
+        /* var d =window.document.getElementById('msg')
+        d.style.backgroundColor = 'green'
+        d.innerText = 'Estou Aguardando ...'
+        */
+       var botao = window.document.querySelector('div.botao')
+       botao.style.background = 'blue'
+
+    </script>
+</body>
+</html>
