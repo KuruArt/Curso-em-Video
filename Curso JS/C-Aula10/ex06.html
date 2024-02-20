@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando valores</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+        div#calculo{
+            padding: 20px;
+            margin: auto;
+            background-color: rgb(218, 228, 165);
+            width: 370px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.479);
+            border-radius: 10px;
+        }
+        div#res{
+            padding: 20px;
+            display: block;
+            text-align: center;
+        }
+        input {
+            margin: auto;
+            padding: 5px;
+        }
+        input#botao1 {
+            display: block;
+        }
+        p {
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando!</h1>
+     <div id="calculo">
+         <p>
+             <input type="number" name="txtn1" id="txtn1"> +
+             <input type="number" name="txtn2" id="txtn2">
+         </p>
+         <input type="button" value="Somar" onclick="Somar()" id="botao1">
+         <div id="res">
+            Resultado
+         </div>
+    </div>
+    
+     <script>
+        function Somar(){
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.querySelector('input#txtn2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var soma = n1 + n2
+            res.innerHTML = ` A soma é ${soma} !!`
+        }
+     </script>
+</body>
+</html>
