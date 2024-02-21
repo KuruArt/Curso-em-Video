@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector de país</title>
+    <style>
+        /*
+        body{
+            background-color: rgba(238, 167, 74, 0.658);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div#menu{
+            background-color: rgb(51, 221, 142);
+            width: 600px;
+            margin: auto;
+            padding: 30px;
+        }
+        div#quest{
+            display: block;
+            margin: auto;
+            width: 40%;
+        }
+        h1{
+            text-align: center;
+        }
+        input{
+            display: inline-block;
+            margin: auto;
+        }
+        */
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <h1>Qual é o seu país?</h1>
+        <div id="quest">
+            <input type="text" id="país">
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <div id="res">
+
+        </div>
+    </div>
+    <script>
+    function verificar() {
+        var país = window.document.getElementById('país')
+        var paístxt = String(país)
+        var res = window.document.getElementById('res')
+        res.innerText = ` Você mora em ${paístxt} `
+    }
+    
+    /* console.log(`Vivendo em ${país}.`)
+    if (país == 'Brasil') {
+    console.log('você é brasileiro')
+    } else {
+    console.log('Você é Estrangeiro!')
+    } */
+    </script>
+</body>
+</html>
