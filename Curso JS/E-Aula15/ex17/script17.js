@@ -1,21 +1,13 @@
-/*
-    var res = document.getElementById('resposta')
-    var inicio = document.getElementById('inicio')
-    var fim = document.getElementById('fim')
-    var passo = document.getElementById('passo')
-    var ininum = Number(inicio.value)
-    var fimnum = Number(fim.value)
-    var pasnum = Number(passo.value)
-    var resnum = 0
-     for(resnum = ininum; resnum < fimnum ; resnum + pasnum ) {
-        res.innerHTML = `${resnum}`
-     }
-*/
-    var inicio = 1
-    var fim = 10
-    var passo = 2
-    var res = inicio
-     while( res < fim ) {
-        res = + passo
-        console.lo(`${res}`)
-     }
+var res = document.getElementById('resposta')
+var n1 = document.getElementById('inicio')
+var n2 = document.getElementById('fim')
+var n3 = document.getElementById('passo')
+var incio = Number(n1.value)
+var fim = Number(n2.value)
+var passo = Number(n3.value)
+function confirm() {
+    if (inicio < fim) {
+      res.innerHTML = `${resnum}`
+      resnum ++
+    }
+}
