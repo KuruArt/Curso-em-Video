@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando os fundos</title>
+    <style>
+        body{
+            height: 100vh;
+            /*background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            */
+            /*
+            o cover preenche totalmente baseado na vh do body
+            */
+            /*
+            shorthand - background
+                color > image > position > repeat > *[size] > attachment
+            */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+        }
+        main {
+            background-color: white;
+            width: 400px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid rgba(28, 28, 97, 0.61);
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagem de fundo </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio corrupti doloremque repudiandae? Voluptate deserunt quasi, tempore quidem ab unde architecto accusantium voluptatem temporibus soluta! Hic vel quod quo consequuntur iure!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur placeat aut ipsum maxime adipisci minima aspernatur unde harum vel voluptates eum, aliquid rem. Voluptatibus impedit, provident voluptatem itaque dicta totam?
+        </p>
+    </main>
+</body>
+</html>
