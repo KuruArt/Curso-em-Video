@@ -26,6 +26,9 @@ header{
     text-align: center;
     margin: 0px;
 }
+h1{
+    font-size: 3.5vw;
+}
 article {
     padding: 0px;
     font-family: "Patrick Hand", cursive;
