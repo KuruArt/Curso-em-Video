@@ -12,13 +12,17 @@
             width: 400px;
             border-collapse: collapse;
             box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.377);
+
         }
         td{
             border: 1px solid black;
             padding: 8px;
+            text-align: center;
         }
         td.dado{
             background-color: yellow;
+            text-align: right;
+            width: 110px;
         }
     </style>
  </head>
@@ -38,17 +42,17 @@
             <tr>
                 <td>A1</td>
                 <td>B1</td>
-                <td>C1</td>
+                <td class="dado" >100</td>
             </tr>
             <tr>
                 <td>A2</td>
-                <td class="dado">B2</td>
-                <td>C2</td>
+                <td>B2</td>
+                <td class="dado">200</td>
             </tr>
             <tr>
                 <td>A3</td>
                 <td>B3</td>
-                <td>C3</td>
+                <td class="dado">300</td>
             </tr>
 
         </table>
