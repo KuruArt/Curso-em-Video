@@ -33,6 +33,7 @@
     <!--
         Anatomia para tabelas grandes
         Table
+            Caption
             Thead
                 TR,TD,TH
             Tbody
@@ -41,10 +42,13 @@
                 TR,TD,TH
     -->
     <table>
+        <caption>
+            Tabela de numeros aleatorios
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -63,7 +67,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Toral de Abitantes</th>
+                <th scope="row">Toral de Abitantes</th>
                 <td class="num"><strong>84.352.783</strong></td>
             </tr>
         </tfoot>
